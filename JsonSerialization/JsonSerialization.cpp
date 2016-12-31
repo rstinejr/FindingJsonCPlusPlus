@@ -13,8 +13,10 @@ int main()
 {
 	ptree pt;
 
-	pt.put(string("School"), string("University of Alabama"));
-	pt.put(string("Cheer"),  string("\"Roll, Tide, Roll!\""));
+	pt.put(string("School"),  string("University of Alabama"));
+	pt.put(string("Cheer"),   string("\"Roll, Tide, Roll!\""));
+	pt.put(string("Sport"),   string("Football"));
+	pt.put(string("Ranking"), 1);
 
 	std::ostringstream out;
 
