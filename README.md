@@ -16,3 +16,11 @@ finest software written, and it's free. Instructions for downloading and install
 on windows may be found at
 
 [Boost: Getting Started on Windows](http://www.boost.org/doc/libs/1_63_0/more/getting_started/windows.html#get-boost)
+
+## Building and running on Linux
+
+To install boost on Debian linux:
+
+`sudo apt-get install libboost-all-dev`
+
+
