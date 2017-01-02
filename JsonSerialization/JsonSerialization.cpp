@@ -1,7 +1,3 @@
-#ifdef _MSC_VER
-#include <SDKDDKVer.h>
-#endif
-
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/property_tree/ptree.hpp>
 #include <iostream>
