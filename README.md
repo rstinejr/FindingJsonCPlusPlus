@@ -19,8 +19,13 @@ on windows may be found at
 
 ## Building and running on Linux
 
+Program was also tested on 64-bit Linux Mint 17.2 Rafaela, a variant of Ubuntu.
+
 To install boost on Debian linux:
 
 `sudo apt-get install libboost-all-dev`
 
+To build and run on Linux
 
+1. make
+2. make run
