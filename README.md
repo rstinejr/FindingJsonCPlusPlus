@@ -3,7 +3,7 @@ FindingJsonCPlusPlus: Use Boost for JSON Serialization in C++
 -------------------------------------------------------------
 </header>
 
-Simple demo of using Boost's header-only ```property_tree``` to
+Simple demo of using Boost's header-only `property_tree` to
 create a string of syntactically correct JSON.
 
 I learned how to do this from the *Stack Overflow* article,
@@ -19,8 +19,9 @@ on windows may be found at
 
 ## Building and running on Windows
 
-The JsonSerialization VisualStudio project expects environment variable BOOST_ROOT to be the directory path of
-your Boost distribution. On my system it's `D:\boost_1_63_0`. 
+The JsonSerialization VisualStudio project expects environment variable `BOOST_ROOT` to be the directory path of
+your Boost distribution. On my system it's `D:\boost_1_63_0`. (This environment variable is not
+used by the Linux build.)
 
 Boost's *property_tree* is header only; you do not need to build Boost's binaries in order to use it.
 
