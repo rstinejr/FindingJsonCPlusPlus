@@ -17,6 +17,16 @@ on windows may be found at
 
 [Boost: Getting Started on Windows](http://www.boost.org/doc/libs/1_63_0/more/getting_started/windows.html#get-boost)
 
+## Building and running on Windows
+
+The JsonSerialization VisualStudio project expects environment variable BOOST_ROOT to be the directory path of
+your Boost distribution. On my system it's `D:\boost_1_63_0`. 
+
+Boost's *property_tree* is header only; you do not need to build Boost's binaries in order to use it.
+
+Build and run the sample with VisualStudio; the solution file is `JsonSerialization.sln`
+
+
 ## Building and running on Linux
 
 Program was also tested on 64-bit Linux Mint 17.2 Rafaela, a variant of Ubuntu.
