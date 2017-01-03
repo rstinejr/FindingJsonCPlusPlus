@@ -17,6 +17,11 @@ on windows may be found at
 
 [Boost: Getting Started on Windows](http://www.boost.org/doc/libs/1_63_0/more/getting_started/windows.html#get-boost)
 
+## Caveat
+Boost does not have a full-featured JSON library. The JSON strings produced by
+method `boost::property_tree::write_json` only have stings for scalar values, even if the
+attribute's value in the property tree is an integer.
+
 ## Building and running on Windows
 
 The JsonSerialization VisualStudio project expects environment variable `BOOST_ROOT` to be the directory path of
