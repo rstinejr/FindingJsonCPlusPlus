@@ -1,7 +1,4 @@
-<header>
-FindingJsonCPlusPlus: Use Boost for JSON Serialization in C++
--------------------------------------------------------------
-</header>
+# FindingJsonCPlusPlus: Use Boost for JSON Serialization in C++
 
 Simple demo of using Boost's header-only `property_tree` to
 create a string of syntactically correct JSON.
